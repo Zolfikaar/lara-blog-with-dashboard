@@ -1,0 +1,54 @@
+/* ######################################## table Section############################################# */
+#table-container{
+    overflow-x: auto;
+  }
+
+  #table-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+  }
+
+  #table-container table thead{
+    font-weight: 700;
+  }
+
+  #table-container table thead td{
+    background-color: #fd8c66;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+  }
+
+  #table-container table td{
+    border: 1px solid #b6b3b3;
+    text-align: center;
+  }
+
+  #table-container table td:nth-child(1){
+    width: 100px;
+  }
+
+  #table-container table td:nth-child(2),
+  #table-container table td:nth-child(3){
+    width: 200px;
+  }
+
+  #table-container table td:nth-child(4),
+  #table-container table td:nth-child(5),
+  #table-container table td:nth-child(6){
+    width: 170px;
+  }
+
+  #table-container table tbody img{
+    width: 100px;
+    height: 80px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  #table-container table tbody i{
+    color: #8d8c89;
+  }
+
